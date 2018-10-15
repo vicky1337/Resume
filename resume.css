@@ -1,0 +1,78 @@
+@media screen {
+    .div-box {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media screen and (min-width: 900px){
+    .body-center {
+        margin: 4rem auto;
+        width: 70%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .display-inline-box {
+        display: inline-block;
+    }
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;   
+    }
+    .body-center {
+        width: 100%;
+    }
+}
+
+@page :first{
+    margin: 0;
+}
+
+@page {
+    margin: 2cm 0 0 0;
+}
+
+.icon-padding {
+    padding-right:10px;
+}
+
+.points-padding {
+    padding-left: 20px;
+}
+
+.company {
+    color: #C8C8C8;
+    padding-left: 15px;
+}
+.header {
+    color: white;
+    background-color: #808080;
+    padding: 20px 20px;
+}
+
+.default-padding {
+    padding: 20px 20px 0;
+}
+
+.div-box {
+    border-radius: 7px;
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: #808080;
+    color: white;
+    float: left;
+    margin: 5px;
+}
+
+.display-inline {
+    display: -webkit-box;
+}
+
+.width-max {
+    max-width: 95%;
+}
+
